@@ -4,7 +4,7 @@
 	import RowCards from './RowCards.svelte';
 </script>
 
-<div class="home">
+<main class="home">
 	<div class="wrapper">
 		<MediaQuery query="(max-width: 750px)" let:matches>
 			{#if matches}
@@ -14,7 +14,7 @@
 			{/if}
 		</MediaQuery>
 	</div>
-</div>
+</main>
 
 <style>
 	.home {
